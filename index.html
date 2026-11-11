@@ -1,0 +1,90 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Vendor Onboarding</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Vendor Onboarding</h1>
+
+<div id="step1">
+
+<h2>Step 1</h2>
+
+<label>Vendor Name</label>
+<input type="text" id="vendorName">
+
+<label>Country</label>
+<input type="text" id="country">
+
+<label>Contact Person</label>
+<input type="text" id="contact">
+
+<button onclick="nextStep(1,2)">
+Next
+</button>
+
+</div>
+
+<div id="step2" style="display:none">
+
+<h2>Step 2</h2>
+
+<label>Tax ID</label>
+<input type="text" id="taxid">
+
+<label>Business Type</label>
+<input type="text" id="businessType">
+
+<button onclick="prevStep(2,1)">
+Back
+</button>
+
+<button onclick="nextStep(2,3)">
+Next
+</button>
+
+</div>
+
+<div id="step3" style="display:none">
+
+<h2>Step 3</h2>
+
+<label>Upload Documents</label>
+
+<input
+type="file"
+id="files"
+multiple>
+
+<button onclick="prevStep(3,2)">
+Back
+</button>
+
+<button onclick="nextStep(3,4)">
+Next
+</button>
+
+</div>
+
+<div id="step4" style="display:none">
+
+<h2>Review & Submit</h2>
+
+<button onclick="submitForm()">
+Submit
+</button>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
