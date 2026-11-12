@@ -1,297 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>First Advantage Vendor Registration</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-          rel="stylesheet">
-
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b4e"><meta name="description" content="Secure First Advantage supplier registration and onboarding portal.">
+  <title>Vendor Registration | First Advantage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <header>
-
-        <div class="logo-section">
-
-            <img src="assets/fa-logo.png"
-                 class="logo">
-
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="First Advantage home"><img src="assets/fa-logo.png" alt="First Advantage"></a>
+    <div class="header-meta"><span class="secure-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3m-12 0h14v11H5z"/></svg> Secure portal</span><span class="header-divider"></span><span class="header-label">Vendor onboarding</span></div>
+  </header>
+  <main>
+    <section id="home" class="welcome-shell">
+      <div class="welcome-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> SUPPLIER ONBOARDING</div>
+        <h1>Welcome to First Advantage <span>Vendor Registration.</span></h1>
+        <p class="welcome-lede">A simple, secure way to register your organisation and begin your supplier relationship with First Advantage.</p>
+        <div class="benefit-list">
+          <div class="benefit"><span class="benefit-icon"><svg viewBox="0 0 24 24"><path d="M12 3 19 6v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z"/><path d="m9 12 2 2 4-4"/></svg></span><div><strong>Secure vendor registration</strong><small>Your information is handled through a secure submission process.</small></div></div>
+          <div class="benefit"><span class="benefit-icon"><svg viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v6h5M10 14h6M10 17h6"/></svg></span><div><strong>Simple documentation process</strong><small>Submit company details and supporting documents in one place.</small></div></div>
+          <div class="benefit"><span class="benefit-icon"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/><path d="m14 17 2 2 4-4"/></svg></span><div><strong>Streamlined compliance verification</strong><small>Review your information before sending it for assessment.</small></div></div>
         </div>
-
-        <div class="header-right">
-
-            <div class="case-pill">
-                Vendor Registration
-            </div>
-
-        </div>
-
-    </header>
-
-    <section class="hero">
-
-        <div class="hero-content">
-
-            <div class="hero-left">
-
-                <h1>
-                    Vendor Registration Portal
-                </h1>
-
-                <p>
-
-This secure onboarding portal allows
-suppliers to submit company information,
-compliance documentation and required
-registration details as part of the
-First Advantage supplier onboarding
-program.
-
-</p>
-
-                <div class="status-box">
-
-                    <div>
-                        <span class="label">Case ID</span>
-                        <span class="value">VND-000001</span>
-                    </div>
-
-                    <div>
-                        <span class="label">Stage</span>
-                        <span class="value">Initial Registration</span>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="hero-right">
-
-                <img src="assets/assetshero-banner.png"
-                     class="hero-image">
-
-            </div>
-
-        </div>
-
+        <div class="welcome-actions"><button class="button button-primary button-large" id="startButton">Start registration <span aria-hidden="true">→</span></button><div class="time-note"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> Approximately 10–15 minutes</div></div>
+        <p class="privacy-note"><svg viewBox="0 0 24 24"><path d="M7 10V7a5 5 0 0 1 10 0v3m-12 0h14v11H5z"/></svg> Please have your company and tax documents ready before you begin.</p>
+      </div>
+      <div class="welcome-visual">
+        <div class="visual-glow"></div><img class="hero-art" src="assets/assetshero-banner.png" alt="Business onboarding and document verification illustration">
+        <div class="visual-caption"><span class="caption-check">✓</span><div><strong>A clear path to onboarding</strong><small>Five guided steps. One simple process.</small></div></div>
+        <div class="visual-index">FA <span> / </span> SUPPLIER PORTAL</div>
+      </div>
     </section>
 
-<!-- WELCOME SCREEN -->
-
-<section
-id="welcomeScreen"
-class="welcome-container">
-
-    <div class="welcome-card">
-
-        <div class="welcome-left">
-
-            <h2>
-                Welcome to First Advantage
-                Vendor Registration
-            </h2>
-
-            <p>
-
-            Thank you for your interest in
-            partnering with First Advantage.
-
-            This registration process will
-            collect the information required
-            to onboard your organisation into
-            our supplier ecosystem.
-
-            </p>
-
-            <div class="info-grid">
-
-                <div class="info-box">
-
-                    <h5>
-                        Estimated Duration
-                    </h5>
-
-                    <p>
-                        10 - 15 Minutes
-                    </p>
-
-                </div>
-
-                <div class="info-box">
-
-                    <h5>
-                        Documents Required
-                    </h5>
-
-                    <p>
-                        Business Registration<br>
-                        Tax Certificate<br>
-                        Insurance Certificate
-                    </p>
-
-                </div>
-
-            </div>
-
-            <button
-                class="btn btn-success start-btn"
-                onclick="startRegistration()">
-
-                Start Registration →
-
-            </button>
-
-        </div>
-
-       <div class="welcome-right">
-
-    <div class="portal-info-card">
-
-        <div class="portal-icon">
-            ✓
-        </div>
-
-        <h3>
-            Secure Supplier Registration
-        </h3>
-
-        <p>
-            Complete your onboarding securely through
-            the First Advantage Vendor Registration
-            Portal.
-        </p>
-
-        <div class="portal-feature">
-
-            ✓ Company Information
-
-        </div>
-
-        <div class="portal-feature">
-
-            ✓ Compliance & Tax Documentation
-
-        </div>
-
-        <div class="portal-feature">
-
-            ✓ Supporting Document Uploads
-
-        </div>
-
-        <div class="portal-feature">
-
-            ✓ Secure Electronic Submission
-
-        </div>
-
-    </div>
-
-</div>
-
-    </div>
-
-</section>
-
-<!-- REGISTRATION SCREEN -->
-
-<section
-id="registrationScreen"
-class="content-wrapper"
-style="display:none;">
-
-    <div
-    id="sidebarNavigation"
-    class="sidebar">
-    </div>
-
-    <div class="main-content">
-
-        <div class="progress-header">
-
-            <div>
-                Registration Progress
-            </div>
-
-            <div id="percent">
-                20%
-            </div>
-
-        </div>
-
-        <div class="progress">
-
-            <div
-            id="progressBar"
-            class="progress-bar"
-            style="width:20%;">
-            </div>
-
-        </div>
-
-        <div
-        id="questionContainer">
-        </div>
-
-        <div class="navigation">
-
-            <button
-            class="btn btn-outline-primary"
-            onclick="previousStep()">
-
-            Previous
-
-            </button>
-
-            <button
-            class="btn btn-primary"
-            onclick="nextStep()">
-
-            Next
-
-            </button>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- LOADING OVERLAY -->
-
-<div
-id="loadingOverlay"
-class="loading-overlay"
-style="display:none;">
-
-    <div class="loading-card">
-
-        <div class="spinner"></div>
-
-        <h3>
-            Submitting Registration
-        </h3>
-
-        <p>
-            Please wait while we securely
-            process your information...
-        </p>
-
-    </div>
-
-</div>
-
-<script src="questions.js"></script>
-<script src="app.js"></script>
-
-</body>
-
-</html>
+    <section id="registration" class="registration-shell" hidden>
+      <div class="registration-heading"><div><div class="eyebrow"><span class="eyebrow-dot"></span> VENDOR REGISTRATION</div><h1>Let’s get you set up.</h1><p>Complete the details below to register your organisation.</p></div><button class="text-button" id="saveExitButton" type="button">Save and exit <span>↗</span></button></div>
+      <div class="wizard-layout">
+        <aside class="step-panel"><div class="step-panel-top"><span class="panel-kicker">YOUR APPLICATION</span><span class="step-count" id="stepCount">01 / 05</span></div><div class="step-list" id="stepNavigation" aria-label="Registration steps"></div><div class="sidebar-help"><span class="help-icon">?</span><div><strong>Need assistance?</strong><p>Contact your First Advantage representative for help with your registration.</p></div></div></aside>
+        <section class="form-panel" aria-live="polite"><div class="form-panel-head"><div><span class="panel-kicker" id="stepEyebrow">STEP 01</span><h2 id="stepTitle">Company information</h2><p id="stepDescription">Tell us about your organisation.</p></div><div class="completion-ring" id="completionRing"><span id="completionPercent">20%</span></div></div>
+          <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+          <div id="stepContent"></div>
+          <div class="form-footer"><button class="button button-secondary" id="backButton" type="button">← Back</button><span class="footer-save" id="saveStatus">Your progress is saved on this device</span><button class="button button-primary" id="continueButton" type="button">Continue <span>→</span></button></div>
+        </section>
+      </div>
+    </section>
+
+    <section id="successScreen" class="success-shell" hidden><div class="success-card"><div class="success-icon"><svg viewBox="0 0 48 48"><path d="m12 25 8 8 17-18"/></svg></div><div class="eyebrow centered"><span class="eyebrow-dot"></span> SUBMISSION CONFIRMED</div><h1>Registration submitted <span>successfully.</span></h1><p id="successMessage">Thank you. Your vendor registration has been received for processing.</p><div class="reference-box" id="referenceBox" hidden><span>REGISTRATION REFERENCE</span><strong id="referenceValue"></strong></div><p class="success-next">Your information will be reviewed by the appropriate team. Please retain your reference number for future communication.</p><button class="button button-primary button-large" id="returnHomeButton">Return to home <span>→</span></button></div></section>
+  </main>
+  <footer class="site-footer"><span>© <span id="year"></span> First Advantage. All rights reserved.</span><span><span class="footer-lock">▣</span> Secure vendor registration</span></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="loadingOverlay" class="loading-overlay" hidden><div class="loading-card"><div class="spinner"></div><h2>Submitting your registration</h2><p>Please keep this window open while we securely process your information.</p></div></div>
+  <script src="config.js"></script><script src="questions.js"></script><script src="app.js"></script>
+</body></html>
